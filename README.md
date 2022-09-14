@@ -111,7 +111,7 @@ w -> run on web
    ```sh
    git push origin 'feat/AmazingFeature'
    ```
-4. Open a Pull Request Following the [Template](https://github.com/sebastianbreguel/Expo-React-Native-Template/.../../../../.github/pull_request_template.md)
+4. Open a Pull Request Following the [Template](https://github.com/sebastianbreguel/Expo-React-Native-Template/blob/main/.github/pull_request_template.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,6 +119,6 @@ w -> run on web
 
 ## Tutorials
 
-For some tutorials, go to this [link](https://github.com/sebastianbreguel/Expo-React-Native-Template/../../../../.github/tutorials.md) that have some info
+For some tutorials, go to this [link](https://github.com/sebastianbreguel/Expo-React-Native-Template/blob/main/.github/tutorials.md) that have some info
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
