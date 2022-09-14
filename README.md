@@ -39,7 +39,7 @@
 
 ## About The Project
 
-This is a project to build a mobile App, with the following libraries:
+This is a project to build a mobile App, with:
 
 - Base language: [TypeScript](https://www.typescriptlang.org/)
 - Base Framework: [Expo](https://docs.expo.dev/) and [React-Native](https://reactnative.dev/)
