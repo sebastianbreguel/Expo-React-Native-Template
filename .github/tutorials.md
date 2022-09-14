@@ -10,8 +10,8 @@ Here will be a lot of tutorials that will be helpfull for the develop of the pro
 ### React libraries and usage
 
 - The must do course: [Learn React Native](https://www.codecademy.com/learn/learn-react-native)
-- react navigation with typescript [mini tutorial](https://www.youtube.com/watch?v=UzMbu3XKEoM)
-- [bottom navigation](https://snack.expo.dev/@aboutreact/bottom-navigation-example?platform=web)
+- React navigation with typescript [mini tutorial](https://www.youtube.com/watch?v=UzMbu3XKEoM)
+- [Bottom navigation](https://snack.expo.dev/@aboutreact/bottom-navigation-example?platform=web)
 - [Formik](https://formik.org/docs/guides/react-native) and [tutorial](https://www.youtube.com/watch?v=-Cyc1bsN2OQ&list=PL4WxketMZHydz_oGUC3vwh0SWnu4fS6mt)
 
 ### Linter
