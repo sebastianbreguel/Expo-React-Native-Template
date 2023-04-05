@@ -5,9 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/sebastianbreguel/Expo-React-Native-Template">
-    <img src="assets/LOGO.png" alt="Logo" width="300" height="140">
-  </a>
+
 
 <h3 align="center"> Expo-React-Native-Project</h3>
 
