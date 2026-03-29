@@ -43,7 +43,30 @@
     "typescript": "~4.3.5"
   },
   "resolutions": {
-    "node-forge": "^1.4.0"
+    "node-forge": "^1.4.0",
+    "braces": ">=3.0.3",
+    "micromatch": ">=4.0.8",
+    "semver": ">=7.5.2",
+    "xml2js": ">=0.5.0",
+    "body-parser": ">=1.20.3",
+    "qs": ">=6.14.2",
+    "send": ">=0.19.0",
+    "tar": ">=7.5.13",
+    "react-devtools-core": ">=4.28.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "node-forge": "^1.4.0",
+      "braces": ">=3.0.3",
+      "micromatch": ">=4.0.8",
+      "semver": ">=7.5.2",
+      "xml2js": ">=0.5.0",
+      "body-parser": ">=1.20.3",
+      "qs": ">=6.14.2",
+      "send": ">=0.19.0",
+      "tar": ">=7.5.13",
+      "react-devtools-core": ">=4.28.4"
+    }
   },
   "private": true,
   "eslintConfig": {
