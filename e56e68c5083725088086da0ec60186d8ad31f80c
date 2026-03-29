@@ -1,0 +1,23 @@
+package.json
+  7a116ef3031a6fef 45-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "e56e68c5083725088086da0ec60186d8ad31f80c",
+  "prompts": {
+    "7a116ef3031a6fef": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fc6aabce-0cb3-4698-9bf4-a2828ae43864",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "sebastianbreguel <62109266+sebastianbreguel@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 0,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
