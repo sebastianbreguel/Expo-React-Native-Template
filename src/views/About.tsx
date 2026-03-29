@@ -1,23 +1,26 @@
-import React from "react";
+import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import { useState } from "react";
 import { View } from "react-native";
 import { Text, TextInput } from "react-native-paper";
 
-const About = () => {
-  const [text, setText] = React.useState<string>("");
+import type { RootStackParamList } from "../navigation/AppNavigator";
+
+type Props = NativeStackScreenProps<RootStackParamList, "About">;
+
+function About({ navigation }: Props) {
+  const [text, setText] = useState("");
 
   return (
-    <View style={{ padding: 16 }}>
-      <Text>Home</Text>
-      {/* Example of useState and textInput interaction */}
+    <View className="flex-1 p-4">
+      <Text variant="displayMedium">About</Text>
       <TextInput
-        label="username"
+        label="Username"
         value={text}
         onChangeText={setText}
-        placeholder={"Seba Breguel uc"}
+        className="mt-4"
       />
-      <Text variant="displayMedium">Hello World!</Text>
     </View>
   );
-};
+}
 
 export default About;

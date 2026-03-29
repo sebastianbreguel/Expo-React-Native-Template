@@ -1,20 +1,24 @@
-import { createStackNavigator } from "@react-navigation/stack";
-import React from "react";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
+import About from "../views/About";
 import Home from "../views/Home";
 
-const AppStack = createStackNavigator();
+export type RootStackParamList = {
+  Home: undefined;
+  About: undefined;
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function AppNavigator() {
   return (
-    <AppStack.Navigator
-      initialRouteName="About"
-      screenOptions={{
-        headerShown: false,
-      }}
+    <Stack.Navigator
+      initialRouteName="Home"
+      screenOptions={{ headerShown: false }}
     >
-      <AppStack.Screen name="Home" component={Home} />
-    </AppStack.Navigator>
+      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="About" component={About} />
+    </Stack.Navigator>
   );
 }
 
