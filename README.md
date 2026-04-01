@@ -59,11 +59,11 @@ This is an example of how to list things you need to use the software and how to
 You should have done the [Installation of Expo](https://docs.expo.dev/get-started/installation/)
 
 - Expo Cli
-- Node.js(v16.17.0)
+- Node.js (v25 — use `nvm use` with the included `.nvmrc`)
 - Git
 - Watchman
 - VS Code Edito
-- Yarn
+- pnpm
 
 Also you shold have at least **IOS simulator** or **Android Emulatorr**.
 
@@ -75,7 +75,7 @@ Also you shold have at least **IOS simulator** or **Android Emulatorr**.
    ```
 2. Install yarn packages
    ```sh
-   yarn install
+   pnpm install
    ```
 3. Run app
    ```sh
