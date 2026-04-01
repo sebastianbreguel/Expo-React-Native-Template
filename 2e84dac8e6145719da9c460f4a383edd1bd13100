@@ -1,0 +1,25 @@
+App.tsx
+  f84754a09a50a1a2 4,10-14
+src/components/ScreenTemplate.tsx
+  f84754a09a50a1a2 1,6,8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "2e84dac8e6145719da9c460f4a383edd1bd13100",
+  "prompts": {
+    "f84754a09a50a1a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "784711ec-7867-48e7-882c-8bf647e6c41d",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "sebastianbreguel <62109266+sebastianbreguel@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 11,
+      "accepted_lines": 30,
+      "overriden_lines": 0
+    }
+  }
+}
