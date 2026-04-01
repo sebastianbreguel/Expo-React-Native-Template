@@ -1,0 +1,29 @@
+src/components/ScreenTemplate.tsx
+  f84754a09a50a1a2 1-19
+src/navigation/AppNavigator.tsx
+  f84754a09a50a1a2 3-4
+src/views/About.tsx
+  f84754a09a50a1a2 3,9
+src/views/Home.tsx
+  f84754a09a50a1a2 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "8c2284224b6a962655ac776aacce921f912099ed",
+  "prompts": {
+    "f84754a09a50a1a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "784711ec-7867-48e7-882c-8bf647e6c41d",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "sebastianbreguel <62109266+sebastianbreguel@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 25,
+      "total_deletions": 34,
+      "accepted_lines": 25,
+      "overriden_lines": 0
+    }
+  }
+}
