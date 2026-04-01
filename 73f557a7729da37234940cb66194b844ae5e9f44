@@ -1,0 +1,23 @@
+.nvmrc
+  f84754a09a50a1a2 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "73f557a7729da37234940cb66194b844ae5e9f44",
+  "prompts": {
+    "f84754a09a50a1a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "784711ec-7867-48e7-882c-8bf647e6c41d",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "sebastianbreguel <62109266+sebastianbreguel@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 10,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
