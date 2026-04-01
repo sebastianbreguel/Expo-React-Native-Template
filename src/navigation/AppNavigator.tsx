@@ -1,7 +1,7 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import About from "../views/About";
-import Home from "../views/Home";
+import About from '@/views/About';
+import Home from '@/views/Home';
 
 export type RootStackParamList = {
   Home: undefined;
