@@ -1,0 +1,27 @@
+.env.example
+  f84754a09a50a1a2 1
+src/services/api.ts
+  f84754a09a50a1a2 1-5
+src/hooks/useAppNavigation.ts
+  f84754a09a50a1a2 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "7d005c809633181a0df6b17a5bf921bff45c09de",
+  "prompts": {
+    "f84754a09a50a1a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "784711ec-7867-48e7-882c-8bf647e6c41d",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "sebastianbreguel <62109266+sebastianbreguel@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 21,
+      "overriden_lines": 0
+    }
+  }
+}
