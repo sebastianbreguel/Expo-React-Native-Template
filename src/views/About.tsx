@@ -1,14 +1,14 @@
-import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { useState } from "react";
-import { View } from "react-native";
-import { Text, TextInput } from "react-native-paper";
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { useState } from 'react';
+import { View } from 'react-native';
+import { Text, TextInput } from 'react-native-paper';
 
-import type { RootStackParamList } from "../navigation/AppNavigator";
+import type { RootStackParamList } from '@/navigation/AppNavigator';
 
-type Props = NativeStackScreenProps<RootStackParamList, "About">;
+type Props = NativeStackScreenProps<RootStackParamList, 'About'>;
 
-function About({ navigation }: Props) {
-  const [text, setText] = useState("");
+function About(_props: Props) {
+  const [text, setText] = useState('');
 
   return (
     <View className="flex-1 p-4">
