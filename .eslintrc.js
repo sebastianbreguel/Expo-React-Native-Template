@@ -23,16 +23,17 @@ module.exports = {
   plugins: ["react", "@typescript-eslint"],
   rules: {
     semi: ["error", "always"],
-    eqeqeq: "off",
+    eqeqeq: "error",
     "react/jsx-no-bind": "off",
     "react/no-deprecated": "error",
     "no-console": "error",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
   },
   settings: {
     react: {
-      version: "18.0",
+      version: "19.0",
     },
   },
 };
