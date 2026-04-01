@@ -1,0 +1,25 @@
+eslint.config.js
+  420a0a3b46be436a 1-13
+package.json
+  420a0a3b46be436a 10-11,73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "bb276535e6458082378311ed884cfdf7c903e4ae",
+  "prompts": {
+    "420a0a3b46be436a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d67da6d-9bcc-45ed-b702-5cd9a32786a2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "sebastianbreguel <62109266+sebastianbreguel@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 17,
+      "total_deletions": 4,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    }
+  }
+}
