@@ -16,7 +16,7 @@
     "@react-navigation/bottom-tabs": "^7.15.9",
     "@react-navigation/native": "^7.2.2",
     "@react-navigation/native-stack": "^7.14.10",
-    "axios": "^1.15.0",
+    "axios": "^1.16.1",
     "expo": "~55.0.0",
     "expo-status-bar": "~55.0.4",
     "nativewind": "^4.2.3",
@@ -53,7 +53,8 @@
     "qs": ">=6.14.2",
     "send": ">=0.19.0",
     "tar": ">=7.5.13",
-    "react-devtools-core": ">=4.28.4"
+    "react-devtools-core": ">=4.28.4",
+    "axios": ">=1.16.1"
   },
   "pnpm": {
     "overrides": {
@@ -66,7 +67,8 @@
       "qs": ">=6.14.2",
       "send": ">=0.19.0",
       "tar": ">=7.5.13",
-      "react-devtools-core": ">=4.28.4"
+      "react-devtools-core": ">=4.28.4",
+      "axios": ">=1.16.1"
     }
   },
   "private": true,
